@@ -68,7 +68,7 @@ button{
 <div class="note">JARVIS AI • VOICE INTERFACE</div>
 </div>
 
-<script>
+<script>const URL="https://script.google.com/macros/s/AKfycbxDXdgpf71PcRKmN9Enj71tjeEFxn2Dl40-viorqFgPTyGym1Kk6jc67I4J0seyh3krbQ/exec;
 const chat=document.getElementById("chat");
 
 function addMessage(text,type){
@@ -85,7 +85,7 @@ function speak(text){
  speechSynthesis.speak(speech);
 }
 
-async function send(){
+{
  const input=document.getElementById("message");
  const text=input.value.trim();
  if(!text)return;
